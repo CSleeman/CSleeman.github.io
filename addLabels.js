@@ -2,7 +2,7 @@
 var addLabels = function(position) {
 
     good = makeTextSprite( "Best form", 
-		{backgroundColor: colorLettersRGB, fontsize: 25, borderColor: colorLettersRGB, borderThickness: 5 } );	
+		{fontface: "Quicksand", backgroundColor: colorLettersRGB, fontsize: 25, borderColor: colorLettersRGB, borderThickness: 5 } );	
     good.position.normalize().multiplyScalar( 1 );
 	good.position.setY(64)
 	good.position.setX(35)
@@ -10,7 +10,7 @@ var addLabels = function(position) {
 	scatterPlot.add(good);
 
     bad = makeTextSprite( "Worst form", 
-		{backgroundColor: colorLettersRGB, fontsize: 20, borderColor: colorLettersRGB, borderThickness: 5 } );
+		{fontface: "Quicksand", backgroundColor: colorLettersRGB, fontsize: 20, borderColor: colorLettersRGB, borderThickness: 5 } );
  	bad.position.normalize().multiplyScalar( 1 );
 	bad.position.setY(-60)
 	bad.position.setX(-80)
@@ -39,7 +39,7 @@ var addLabels = function(position) {
 	if (position=="hitters") {
 
 		ba = makeTextSprite( "Batting average", 
-		{backgroundColor: {r:0, g:0, b:31, a:1.0}, fontsize: 20, borderColor: {r:0, g:0, b:31, a:1.0}, borderThickness: 5 } );
+		{fontface: "Quicksand", backgroundColor: {r:0, g:0, b:31, a:1.0}, fontsize: 20, borderColor: {r:0, g:0, b:31, a:1.0}, borderThickness: 5 } );
 		ba.position.normalize().multiplyScalar( 1 );
 		ba.position.setY(-60)
 		ba.position.setX(-25)
@@ -47,7 +47,7 @@ var addLabels = function(position) {
 		scatterPlot.add(ba);
 
 		hr = makeTextSprite( "Home runs", 
-		{backgroundColor: {r:0, g:0, b:31, a:1.0}, fontsize: 20, borderColor: {r:0, g:0, b:31, a:1.0}, borderThickness: 5 } );
+		{fontface: "Quicksand", backgroundColor: {r:0, g:0, b:31, a:1.0}, fontsize: 20, borderColor: {r:0, g:0, b:31, a:1.0}, borderThickness: 5 } );
 		hr.position.normalize().multiplyScalar( 1 );
 		hr.position.setY(5)
 		hr.position.setX(5)
@@ -56,7 +56,7 @@ var addLabels = function(position) {
 
 
 		rb = makeTextSprite( "Runs batted in", 
-		{backgroundColor: {r:0, g:0, b:31, a:1.0}, fontsize: 20, borderColor: {r:0, g:0, b:31, a:1.0}, borderThickness: 5 } );
+		{fontface: "Quicksand", backgroundColor: {r:0, g:0, b:31, a:1.0}, fontsize: 20, borderColor: {r:0, g:0, b:31, a:1.0}, borderThickness: 5 } );
 		rb.position.normalize().multiplyScalar( 1 );
 		rb.position.setY(-55)
 		rb.position.setX(-85)
@@ -68,7 +68,7 @@ var addLabels = function(position) {
 
 
 		ba = makeTextSprite( "Games won", 
-		{backgroundColor: {r:0, g:0, b:31, a:1.0}, fontsize: 20, borderColor: {r:0, g:0, b:31, a:1.0}, borderThickness: 5 } );
+		{fontface: "Quicksand", backgroundColor: {r:0, g:0, b:31, a:1.0}, fontsize: 20, borderColor: {r:0, g:0, b:31, a:1.0}, borderThickness: 5 } );
 		ba.position.normalize().multiplyScalar( 1 );
 		ba.position.setY(-60)
 		ba.position.setX(-25)
@@ -76,7 +76,7 @@ var addLabels = function(position) {
 		scatterPlot.add(ba);
 
 		hr = makeTextSprite( "Strikeouts per 9 IP", 
-		{backgroundColor: {r:0, g:0, b:31, a:1.0}, fontsize: 20, borderColor: {r:0, g:0, b:31, a:1.0}, borderThickness: 5 } );
+		{fontface: "Quicksand", backgroundColor: {r:0, g:0, b:31, a:1.0}, fontsize: 20, borderColor: {r:0, g:0, b:31, a:1.0}, borderThickness: 5 } );
 		hr.position.normalize().multiplyScalar( 1 );
 		hr.position.setY(5)
 		hr.position.setX(5)
@@ -84,7 +84,7 @@ var addLabels = function(position) {
 		scatterPlot.add(hr);
 
 		rb = makeTextSprite( "ERA (inverted)", 
-		{backgroundColor: {r:0, g:0, b:31, a:1.0}, fontsize: 20, borderColor: {r:0, g:0, b:31, a:1.0}, borderThickness: 5 } );
+		{fontface: "Quicksand", backgroundColor: {r:0, g:0, b:31, a:1.0}, fontsize: 20, borderColor: {r:0, g:0, b:31, a:1.0}, borderThickness: 5 } );
     	rb.position.normalize().multiplyScalar( 1 );
 		rb.position.setY(-55)
 		rb.position.setX(-85)
